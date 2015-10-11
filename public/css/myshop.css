@@ -1,0 +1,55 @@
+.pagination {
+    position: relative;
+}
+.pagination {
+    padding-left: 0;
+    margin: 1.5rem 0;
+    list-style: none;
+    color: #999;
+    text-align: left;
+}
+
+.pagination>li {
+    display: inline-block;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #0e90d2;
+    border-color: #0e90d2;
+    cursor: default;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+    line-height: 1.2;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.am-btn-default {
+    background: none;
+}
+
+#logoimg{
+
+    width:80px;
+    height:60px;
+}
+
+.am-icon-check {
+    color: #5eb95e;
+}
+
+.am-icon-close {
+    color: #f37b1d;
+}
+
+#brand_logo_img{
+    max-height: 180px;
+}
